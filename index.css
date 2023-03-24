@@ -1,0 +1,86 @@
+.btn {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-a {
+
+    color: white;
+    padding: 20px 100px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    clip-path: polygon(25% 0%, 75% 0%, 80% 50%, 75% 100%, 25% 100%, 20% 49%);
+    text-decoration: none;
+
+}
+
+.btn-a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+.card-1{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+}
+.grid-01{
+    grid-template-columns: 0.8fr 0.7fr 1fr 0.8fr;
+}
+.parent {
+    
+    
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 1.8fr) 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 0px;
+}
+.provide{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/730/975/758/pause-play-stop-buttons-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.color{
+    
+    background-color: #CD2827;
+    opacity: 0.8;
+}
+.grid-001 {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 0.6fr repeat(3, 1.5fr) 0.6fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 19px;
+    grid-row-gap: 0px;
+}
+.grid-contact{
+ 
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+     
+ 
+}
+.contact-red{
+    height: 70vh;
+    width: 40vw;
+    margin-left: 125px;
+    margin-bottom: 40px;
+    background-color: #CD2827;
+}
